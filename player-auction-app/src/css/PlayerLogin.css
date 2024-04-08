@@ -1,0 +1,86 @@
+/* PlayerLogin.css */
+
+/* Container Styles */
+.player-login-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styles */
+.player-login-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Table Styles */
+.p-datatable {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Table Header Styles */
+.p-datatable thead th {
+    padding: 10px;
+    background-color: #010406;
+    color: #fff;
+}
+
+/* Table Row Styles */
+.p-datatable tbody tr {
+    background-color: #fff; /* White background for even rows */
+}
+
+.p-datatable tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Lighter gray background for odd rows */
+}
+/* Button Styles */
+.p-button {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.p-button-success {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.p-button-danger {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Loading Message Styles */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Refresh Button Styles */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #286090;
+}

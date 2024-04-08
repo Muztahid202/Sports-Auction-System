@@ -1,0 +1,92 @@
+.table-container {
+    max-height: 800px; /* Adjust the maximum height as needed */
+    overflow-y: 100px;
+    /* overflow-x: hidden; */
+    display: block;
+    border: 1px solid black;
+
+  }
+/* players.css */
+
+
+  
+  /* .player-in-auction h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333; /* Text color */
+  
+  
+
+  .player-in-auction {
+    margin: 10px; /* Add some margin to separate each player */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; /* Background color */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block; /*Display elements horizontally
+    /* width: calc(33.33% - 20px); Divide into 3 columns with spacing */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }
+  
+  .player-in-auction h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333; /* Text color */
+  }
+  
+  /* Add media query for responsiveness on smaller screens */
+  @media (max-width: 768px) {
+    .player-in-auction {
+      width: calc(50% - 20px); /* Divide into 2 columns on smaller screens */
+    }
+  } 
+  /* CSS for the input elements */
+.table-container {
+  margin: 1rem 0;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container input {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 50%;
+  font-size: 1rem;
+  /* display: inline; */
+  offset-distance: 10px;
+}
+
+.input-container select {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 50%;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+/* .inputt-container input:focus {
+  border: 2px solid #1877f2;
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 50%;
+  font-size: 1rem;
+  background-color: #fff;
+
+} */
+
+/* Apply this class to the div containing the inputs */

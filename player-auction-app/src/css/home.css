@@ -1,0 +1,43 @@
+.home {
+    /* Define styles for the entire Home component here */
+    background-color: #f0f0f0;
+    padding: 2rem;
+    text-align: center;
+}
+.home-container {
+    /* Define styles for the content container here */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.home-right {
+    /* Define styles for the right side here */
+    flex: 1;
+    padding: 1rem;
+}
+
+.home-login {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem 0.25rem 0.25rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.home-register {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem 0.25rem 0.25rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
